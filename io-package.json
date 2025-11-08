@@ -262,6 +262,7 @@
     "messagebox": true,
     "readme": "https://raw.githubusercontent.com/rde-master/ioBroker.todoist2/master/README.md",
     "loglevel": "info",
+    "tier": 2,
     "icon": "todoist.png",
     "materialize": true,
     "compact": true,
