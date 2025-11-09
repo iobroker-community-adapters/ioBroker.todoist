@@ -254,7 +254,10 @@
         "todoist",
         "message"
      ],
-    "license": "MIT",
+    "licenseInformation": {
+      "type": "free",
+      "license": "MIT"
+    },
     "platform": "Javascript/Node.js",
     "connectionType": "cloud",
     "dataSource": "poll",
