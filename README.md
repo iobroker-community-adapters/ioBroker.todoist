@@ -283,7 +283,7 @@ Major Changes:
 
 ## License
 The MIT License (MIT)
-Copyright (c) 2021 rde-master <info@rde-master.de>
+Copyright (c) 2021-2025 rde-master <info@rde-master.de>
 
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
