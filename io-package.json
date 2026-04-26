@@ -27,7 +27,7 @@
         "es": "Se implementan nuevas funciones de API (fechas, creador, ...), limpieza de código, función agregada para escribir nombres en lugar de id, función agregada para escribir los datos RAW de la API de estados",
         "pl": "Zaimplementowano nowe funkcje API (daty, twórca,...), czyszczenie kodu, dodano funkcję do zapisywania nazw zamiast identyfikatorów, dodano funkcję do zapisywania danych RAW z API stanów",
         "zh-cn": "实现了新的 API 函数（日期、创建者、...）、代码清理、添加了用于写入名称而不是 id 的函数、添加了用于从状态 API 写入 RAW 数据的函数"
-        },
+      },
       "0.8.11": {
         "en": "Bugfix JSON naming",
         "de": "Bug-Fix Namen von JSON felder",
@@ -39,7 +39,7 @@
         "es": "Arreglo del fallo",
         "pl": "Naprawa błędów",
         "zh-cn": "错误修正"
-        },
+      },
       "0.8.10": {
         "en": "Bugfix Filter Lists",
         "de": "Bug-Fix Filster Listen",
@@ -51,7 +51,7 @@
         "es": "Arreglo del fallo",
         "pl": "Naprawa błędów",
         "zh-cn": "错误修正"
-        },
+      },
       "0.8.9": {
         "en": "Bugfix",
         "de": "Bug-Fix",
@@ -63,7 +63,7 @@
         "es": "Arreglo del fallo",
         "pl": "Naprawa błędów",
         "zh-cn": "错误修正"
-        },
+      },
       "0.8.7": {
         "en": "Bugfix",
         "de": "Bug-Fix",
@@ -75,7 +75,7 @@
         "es": "Arreglo del fallo",
         "pl": "Naprawa błędów",
         "zh-cn": "错误修正"
-        },
+      },
       "0.8.6": {
         "en": "Bugfix",
         "de": "Bug-Fix",
@@ -87,7 +87,7 @@
         "es": "Arreglo del fallo",
         "pl": "Naprawa błędów",
         "zh-cn": "错误修正"
-        },
+      },
       "0.8.5": {
         "en": "Bugfix",
         "de": "Bug-Fix",
@@ -99,8 +99,8 @@
         "es": "Arreglo del fallo",
         "pl": "Naprawa błędów",
         "zh-cn": "错误修正"
-        },
-      "0.8.4":{
+      },
+      "0.8.4": {
         "en": "add option to add an image in the html button",
         "de": "Option hinzufügen, um ein Bild in die HTML-Schaltfläche einzufügen",
         "ru": "добавить возможность добавить изображение в кнопку html",
@@ -126,28 +126,28 @@
       },
       "0.8.2": {
         "en": "Name for no todo",
-    "de": "Name für keine Aufgabe",
-    "ru": "Имя для no todo",
-    "pt": "Nome para nenhuma tarefa",
-    "nl": "Naam voor no todo",
-    "fr": "Nom pour pas de todo",
-    "it": "Nome per niente cose da fare",
-    "es": "Nombre para no todo",
-    "pl": "Nazwij brak rzeczy do zrobienia",
-    "zh-cn": "待办事项名称"
+        "de": "Name für keine Aufgabe",
+        "ru": "Имя для no todo",
+        "pt": "Nome para nenhuma tarefa",
+        "nl": "Naam voor no todo",
+        "fr": "Nom pour pas de todo",
+        "it": "Nome per niente cose da fare",
+        "es": "Nombre para no todo",
+        "pl": "Nazwij brak rzeczy do zrobienia",
+        "zh-cn": "待办事项名称"
       },
       "0.8.1": {
         "en": "add Option for SVG ICON, add Option disable Table when no Todo is there, add Option to hide Table Headlines when there is no Name for it, experimental: add Option, when you close a Task in Vis or per Objekt then the Main function is called to Refresh the Objekts and VIS",
-    "de": "Option für SVG ICON hinzufügen, Option hinzufügen Tabelle deaktivieren, wenn kein Todo vorhanden ist, Option hinzufügen, um Tabellenüberschriften auszublenden, wenn kein Name dafür vorhanden ist, experimentell: Option hinzufügen, wenn Sie eine Aufgabe in Vis oder pro Objekt schließen, ist die Hauptfunktion aufgerufen, um die Objekte und das VIS zu aktualisieren",
-    "ru": "добавить параметр для SVG ICON, добавить параметр отключить таблицу, когда нет Todo, добавить параметр, чтобы скрыть заголовки таблиц, когда для него нет имени, экспериментальный: добавить параметр, когда вы закрываете задачу в Vis или для каждого объекта, тогда основная функция призвал обновить объекты и ВИС",
-    "pt": "adicionar Opção para SVG ICON, adicionar Opção desabilitar Tabela quando não houver tarefas, adicionar Opção para ocultar Títulos de Tabela quando não houver Nome para ela, experimental: adicionar Opção, quando você fecha uma Tarefa no Vis ou por Objekt, a função Principal é chamado para atualizar os Objekts e VIS",
-    "nl": "voeg optie toe voor SVG ICON, voeg optie toe deactiveer tabel wanneer er geen Todo is, voeg optie toe om tabelkoppen te verbergen als er geen naam voor is, experimenteel: voeg optie toe, wanneer je een taak sluit in Vis of per object dan is de hoofdfunctie opgeroepen om de Objecten en VIS te vernieuwen",
-    "fr": "ajouter une option pour SVG ICON, ajouter une option désactiver la table quand aucun Todo n'est là, ajouter une option pour masquer les titres de la table quand il n'y a pas de nom pour elle, expérimental: ajouter une option, lorsque vous fermez une tâche dans Vis ou par objekt, la fonction principale est appelé pour rafraîchir les Objekts et VIS",
-    "it": "aggiungi l'opzione per l'ICONA SVG, aggiungi l'opzione disabilita la tabella quando non ci sono cose da fare, aggiungi l'opzione per nascondere i titoli della tabella quando non c'è un nome, sperimentale: aggiungi l'opzione, quando chiudi un'attività in Vis o per Objekt, la funzione principale è chiamato a Refresh the Objekts e VIS",
-    "es": "agregar Opción para ICONO SVG, agregar Opción deshabilitar Tabla cuando no hay Todo, agregar Opción para ocultar Titulares de tabla cuando no hay un Nombre para ello, experimental: agregar Opción, cuando cierra una Tarea en Vis o por Objekt, entonces la función Principal es llamado para actualizar los Objekts y VIS",
-    "pl": "dodaj opcję dla ikony SVG, dodaj opcję wyłącz tabelę, gdy nie ma zadań do wykonania, dodaj opcję ukrywania nagłówków tabeli, gdy nie ma dla niej nazwy, eksperymentalnie: dodaj opcję, gdy zamykasz zadanie w Vis lub na obiekt, wtedy funkcja główna jest wezwany do odświeżenia obiektów i VIS",
-    "zh-cn": "为SVG ICON添加选项，在没有Todo的情况下添加Option禁用表，在没有名称的情况下添加Option以隐藏表标题，实验性：添加Option，当您在Vis中或根据对象关闭任务时，Main函数为要求刷新目标和VIS"
-        },
+        "de": "Option für SVG ICON hinzufügen, Option hinzufügen Tabelle deaktivieren, wenn kein Todo vorhanden ist, Option hinzufügen, um Tabellenüberschriften auszublenden, wenn kein Name dafür vorhanden ist, experimentell: Option hinzufügen, wenn Sie eine Aufgabe in Vis oder pro Objekt schließen, ist die Hauptfunktion aufgerufen, um die Objekte und das VIS zu aktualisieren",
+        "ru": "добавить параметр для SVG ICON, добавить параметр отключить таблицу, когда нет Todo, добавить параметр, чтобы скрыть заголовки таблиц, когда для него нет имени, экспериментальный: добавить параметр, когда вы закрываете задачу в Vis или для каждого объекта, тогда основная функция призвал обновить объекты и ВИС",
+        "pt": "adicionar Opção para SVG ICON, adicionar Opção desabilitar Tabela quando não houver tarefas, adicionar Opção para ocultar Títulos de Tabela quando não houver Nome para ela, experimental: adicionar Opção, quando você fecha uma Tarefa no Vis ou por Objekt, a função Principal é chamado para atualizar os Objekts e VIS",
+        "nl": "voeg optie toe voor SVG ICON, voeg optie toe deactiveer tabel wanneer er geen Todo is, voeg optie toe om tabelkoppen te verbergen als er geen naam voor is, experimenteel: voeg optie toe, wanneer je een taak sluit in Vis of per object dan is de hoofdfunctie opgeroepen om de Objecten en VIS te vernieuwen",
+        "fr": "ajouter une option pour SVG ICON, ajouter une option désactiver la table quand aucun Todo n'est là, ajouter une option pour masquer les titres de la table quand il n'y a pas de nom pour elle, expérimental: ajouter une option, lorsque vous fermez une tâche dans Vis ou par objekt, la fonction principale est appelé pour rafraîchir les Objekts et VIS",
+        "it": "aggiungi l'opzione per l'ICONA SVG, aggiungi l'opzione disabilita la tabella quando non ci sono cose da fare, aggiungi l'opzione per nascondere i titoli della tabella quando non c'è un nome, sperimentale: aggiungi l'opzione, quando chiudi un'attività in Vis o per Objekt, la funzione principale è chiamato a Refresh the Objekts e VIS",
+        "es": "agregar Opción para ICONO SVG, agregar Opción deshabilitar Tabla cuando no hay Todo, agregar Opción para ocultar Titulares de tabla cuando no hay un Nombre para ello, experimental: agregar Opción, cuando cierra una Tarea en Vis o por Objekt, entonces la función Principal es llamado para actualizar los Objekts y VIS",
+        "pl": "dodaj opcję dla ikony SVG, dodaj opcję wyłącz tabelę, gdy nie ma zadań do wykonania, dodaj opcję ukrywania nagłówków tabeli, gdy nie ma dla niej nazwy, eksperymentalnie: dodaj opcję, gdy zamykasz zadanie w Vis lub na obiekt, wtedy funkcja główna jest wezwany do odświeżenia obiektów i VIS",
+        "zh-cn": "为SVG ICON添加选项，在没有Todo的情况下添加Option禁用表，在没有名称的情况下添加Option以隐藏表标题，实验性：添加Option，当您在Vis中或根据对象关闭任务时，Main函数为要求刷新目标和VIS"
+      },
       "0.8.0": {
         "en": "delete Request and add Axios",
         "de": "Anfrage löschen und Axios hinzufügen",
@@ -159,7 +159,7 @@
         "es": "eliminar Solicitud y agregar Axios",
         "pl": "usuń Żądanie i dodaj Axios",
         "zh-cn": "删除请求并添加Axios"
-        },
+      },
       "0.7.3": {
         "en": "Bugfix",
         "de": "Bug-Fix",
@@ -171,7 +171,7 @@
         "es": "Arreglo del fallo",
         "pl": "Naprawa błędów",
         "zh-cn": "错误修正"
-        },
+      },
       "0.7.2": {
         "en": "Bugfix",
         "de": "Bug-Fix",
@@ -195,7 +195,7 @@
         "es": "Bugfix JSON + opción agregada nombrar el botón HTML",
         "pl": "Bugfix JSON + dodał opcję Nazewnictwo przycisku HTML",
         "zh-cn": "错误修正JSON +添加了命名HTML按钮的选项"
-         },
+      },
       "0.7.0": {
         "en": "added Option to Name all Fields in HTML table and JSON table",
         "de": "Option zum Benennen aller Felder in der HTML-Tabelle und der JSON-Tabelle hinzugefügt",
@@ -207,7 +207,7 @@
         "es": "Opción agregada para nombrar todos los campos en la tabla HTML y la tabla JSON",
         "pl": "dodano opcję Nazwania wszystkich pól w tabeli HTML i tabeli JSON",
         "zh-cn": "添加选项以命名HTML表和JSON表中的所有字段"
-        },
+      },
       "0.6.7": {
         "en": "Bugfix Prio",
         "de": "Bugfix Prio",
@@ -219,7 +219,7 @@
         "es": "Corrección de errores Prio",
         "pl": "Bugfix Prio",
         "zh-cn": "错误修正Prio"
-        }         
+      }
     },
     "title": "todoist2",
     "titleLang": {
@@ -233,7 +233,7 @@
       "es": "todoist2",
       "pl": "todoist2",
       "zh-cn": "todoist2"
-  },
+    },
     "desc": {
       "en": "This adapter communikates with todoist",
       "de": "Dieser Adapter kommuniziert mit todoist",
@@ -245,15 +245,16 @@
       "es": "Este adaptador se comunica con todoist",
       "pl": "Ten adapter komunikuje się z todoist",
       "zh-cn": "该适配器与todoist通信"
-      },
+    },
     "authors": [
-      "rde-master <info@rde-master.de>"
-      ],
+      "rde-master <info@rde-master.de>",
+      "iobroker-community-adapters <iobroker-community-adapters@gmx.de>"
+    ],
     "keywords": [
-        "notification",
-        "todoist",
-        "message"
-     ],
+      "notification",
+      "todoist",
+      "message"
+    ],
     "license": "MIT",
     "platform": "Javascript/Node.js",
     "connectionType": "cloud",
@@ -267,7 +268,7 @@
     "compact": true,
     "dependencies": [
       {
-          "js-controller": ">=1.5.8"
+        "js-controller": ">=6.0.11"
       }
     ],
     "extIcon": "https://raw.githubusercontent.com/rde-master/ioBroker.todoist2/master/admin/todoist.png",
@@ -278,154 +279,149 @@
       "minWidth": 800,
       "width": 1224,
       "height": 600
-    }
-  },
-    "native": {
-      "token": "",
-      "pollingInterval": 60000,
-      "debug": false,
-      "project": true,
-      "section": false,
-      "tasks": true,
-      "labels": true,
-      "raw_data": false,
-      "project_collaborators": false,
-      "dublicate": true,
-      "text_objects": true,
-      "json_objects": true,
-      "html_objects": true,
-      "rm_old_objects": false,
-      "filter_aktiv": false,
-      "blacklist": [],
-      "sync": [],
-      "filterlist": [],
-      "html_css_table": [],
-      "html_css_button": [],
-      "html_svg_button": [],
-
-      "html_visable": true,
-      "html_id": true,
-      "html_priority": false,
-      "html_url": false,
-      "html_project_id": false,
-      "html_comment_cound": false,
-      "html_parent_id": false,
-      "html_due_date": false,
-      "html_due_string": false,
-      "html_due_recurring": false,
-      "html_creator_id": false,
-      "html_assignee_id": false,
-      "html_assigner_id": false,
-      "html_labels_id": false,
-      "html_description": false,
-      "html_section_id": false,
-      "html_created": false,
-
-      "html_project_id_change": false,
-      "html_parent_id_change": false,
-      "html_creator_id_change": false,
-      "html_assignee_id_change": false,
-      "html_assigner_id_change": false,
-      "html_labels_id_change": false,
-      "html_section_id_change": false,
-      "html_order": false,
-      
-      "json_id": true,
-      "json_priority": false,
-      "json_url": false,
-      "json_project_id": false,
-      "json_comment_cound": false,
-      "json_parent_id": false,
-      "json_due_date": false,
-      "json_due_string": false,
-      "json_due_recurring": false,
-      "json_creator_id": false,
-      "json_assignee_id": false,
-      "json_assigner_id": false,
-      "json_labels_id": false,
-      "json_description": false,
-      "json_section_id": false,
-      "json_created": false,
-      "json_order": false,
-
-      "json_project_id_change": false,
-      "json_parent_id_change": false,
-      "json_creator_id_change": false,
-      "json_assignee_id_change": false,
-      "json_assigner_id_change": false,
-      "json_labels_id_change": false,
-      "json_section_id_change": false,
-      
-
-      "text_separator":", ",
-
-      "html_id_name": "ID",
-      "html_priority_name": "priority",
-      "html_url_name": "url",
-      "html_project_name": "project id",
-      "html_comment_name": "comment count",
-      "html_parent_name": "parent ID",
-      "html_notodo_name": "no Todo",
-      "html_due_date_name": "Date",
-      "html_due_string_name": "Date String",
-      "html_due_recurring_name": "recurring",
-      "html_creator_id_name": "creator",
-      "html_assignee_id_name": "assignee",
-      "html_assigner_id_name": "assigner",
-      "html_labels_name": "labels",
-      "html_description_name": "description",
-      "html_section_id_name": "Section ID",
-      "html_order_name": "order",
-      "html_created_name": "created",
-
-      "json_id_name": "ID",
-      "json_priority_name": "priority",
-      "json_url_name": "url",
-      "json_project_name": "project id",
-      "json_comment_name": "comment count",
-      "json_parent_name": "parent ID",
-      "json_notodo_name": "no todo",
-      "html_name": "Task",
-      "json_name": "Task",
-      "json_due_date_name": "Date",
-      "json_due_string_name": "Date String",
-      "json_due_recurring_name": "recurring",
-      "json_creator_id_name": "creator",
-      "json_assignee_id_name": "assignee",
-      "json_assigner_id_name": "assigner",
-      "json_labels_name": "labels",
-      "json_description_name": "description",
-      "json_section_id_name": "Section ID",
-      "json_order_name": "order",
-      "json_created_name": "created",
-
-      "html_button": true,
-      "html_button_name": "close",
-      "text_notodo_name": "no Todo"
     },
-    "objects": [],
-    "instanceObjects": [
+    "globalDependencies": [
       {
-        "_id": "info",
-        "type": "channel",
-        "common": {
-            "name": "Information"
-        },
-        "native": {}
-      },
-      {
-        "_id": "info.connection",
-        "type": "state",
-        "common": {
-          "role": "indicator.connected",
-          "name": "If connected to Todoist server",
-          "type": "boolean",
-          "read": true,
-          "write": false,
-          "def": false
-        },
-        "native": {}
+        "admin": ">=7.7.22"
       }
     ]
-  } 
-
+  },
+  "native": {
+    "token": "",
+    "pollingInterval": 60000,
+    "debug": false,
+    "project": true,
+    "section": false,
+    "tasks": true,
+    "labels": true,
+    "raw_data": false,
+    "project_collaborators": false,
+    "dublicate": true,
+    "text_objects": true,
+    "json_objects": true,
+    "html_objects": true,
+    "rm_old_objects": false,
+    "filter_aktiv": false,
+    "blacklist": [],
+    "sync": [],
+    "filterlist": [],
+    "html_css_table": [],
+    "html_css_button": [],
+    "html_svg_button": [],
+    "html_visable": true,
+    "html_id": true,
+    "html_priority": false,
+    "html_url": false,
+    "html_project_id": false,
+    "html_comment_cound": false,
+    "html_parent_id": false,
+    "html_due_date": false,
+    "html_due_string": false,
+    "html_due_recurring": false,
+    "html_creator_id": false,
+    "html_assignee_id": false,
+    "html_assigner_id": false,
+    "html_labels_id": false,
+    "html_description": false,
+    "html_section_id": false,
+    "html_created": false,
+    "html_project_id_change": false,
+    "html_parent_id_change": false,
+    "html_creator_id_change": false,
+    "html_assignee_id_change": false,
+    "html_assigner_id_change": false,
+    "html_labels_id_change": false,
+    "html_section_id_change": false,
+    "html_order": false,
+    "json_id": true,
+    "json_priority": false,
+    "json_url": false,
+    "json_project_id": false,
+    "json_comment_cound": false,
+    "json_parent_id": false,
+    "json_due_date": false,
+    "json_due_string": false,
+    "json_due_recurring": false,
+    "json_creator_id": false,
+    "json_assignee_id": false,
+    "json_assigner_id": false,
+    "json_labels_id": false,
+    "json_description": false,
+    "json_section_id": false,
+    "json_created": false,
+    "json_order": false,
+    "json_project_id_change": false,
+    "json_parent_id_change": false,
+    "json_creator_id_change": false,
+    "json_assignee_id_change": false,
+    "json_assigner_id_change": false,
+    "json_labels_id_change": false,
+    "json_section_id_change": false,
+    "text_separator": ", ",
+    "html_id_name": "ID",
+    "html_priority_name": "priority",
+    "html_url_name": "url",
+    "html_project_name": "project id",
+    "html_comment_name": "comment count",
+    "html_parent_name": "parent ID",
+    "html_notodo_name": "no Todo",
+    "html_due_date_name": "Date",
+    "html_due_string_name": "Date String",
+    "html_due_recurring_name": "recurring",
+    "html_creator_id_name": "creator",
+    "html_assignee_id_name": "assignee",
+    "html_assigner_id_name": "assigner",
+    "html_labels_name": "labels",
+    "html_description_name": "description",
+    "html_section_id_name": "Section ID",
+    "html_order_name": "order",
+    "html_created_name": "created",
+    "json_id_name": "ID",
+    "json_priority_name": "priority",
+    "json_url_name": "url",
+    "json_project_name": "project id",
+    "json_comment_name": "comment count",
+    "json_parent_name": "parent ID",
+    "json_notodo_name": "no todo",
+    "html_name": "Task",
+    "json_name": "Task",
+    "json_due_date_name": "Date",
+    "json_due_string_name": "Date String",
+    "json_due_recurring_name": "recurring",
+    "json_creator_id_name": "creator",
+    "json_assignee_id_name": "assignee",
+    "json_assigner_id_name": "assigner",
+    "json_labels_name": "labels",
+    "json_description_name": "description",
+    "json_section_id_name": "Section ID",
+    "json_order_name": "order",
+    "json_created_name": "created",
+    "html_button": true,
+    "html_button_name": "close",
+    "text_notodo_name": "no Todo"
+  },
+  "objects": [],
+  "instanceObjects": [
+    {
+      "_id": "info",
+      "type": "channel",
+      "common": {
+        "name": "Information"
+      },
+      "native": {}
+    },
+    {
+      "_id": "info.connection",
+      "type": "state",
+      "common": {
+        "role": "indicator.connected",
+        "name": "If connected to Todoist server",
+        "type": "boolean",
+        "read": true,
+        "write": false,
+        "def": false
+      },
+      "native": {}
+    }
+  ]
+}
