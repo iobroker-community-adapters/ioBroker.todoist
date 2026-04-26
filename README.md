@@ -166,6 +166,11 @@ Example for any image you like:
 ```
 
 ## Changelog
+
+### **WORK IN PROGRESS**
+- (copilot) Adapter requires js-controller >= 6.0.11 now
+- (copilot) Adapter requires admin >= 7.7.22 now
+
 ### 0.9.1
 * (rde-master) Bugfix description
 * (rde-master) Bugfix Translation
@@ -283,6 +288,8 @@ Major Changes:
 
 ## License
 The MIT License (MIT)
+
+Copyright (c) 2026 iobroker-community-adapters <iobroker-community-adapters@gmx.de>  
 Copyright (c) 2021 rde-master <info@rde-master.de>
 
 
