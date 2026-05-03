@@ -3,3 +3,4 @@ admin/index_m_old2.html
 admin/index_m_test.html
 package.json
 .dev-server
+node_modules/

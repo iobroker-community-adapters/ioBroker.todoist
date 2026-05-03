@@ -1580,7 +1580,7 @@ async function getLabels(){
     
 		adapter.log.warn("löschen alter einträge: ");
 		var Key;
-        var bestehende_objekte = adapter.getStates('todoist2.' + adapter.instance + '.Labels-JSON.*'); 
+        var bestehende_objekte = adapter.getStates('todoist.' + adapter.instance + '.Labels-JSON.*'); 
 		//bestehende_objekte = bestehende_objekte.replace(/\\/g, ''); //Backschlasche entfernen!
 		
 		adapter.log.warn(JSON.stringify(bestehende_objekte));
@@ -1912,7 +1912,7 @@ async function tasktoproject(project){
                 }
             }
 
-            adapter.setState('HTML.Projects-HTML.' + project.projects_names[j], { val: '<style>' + css + css2 + '</style>' + '<script>' + 'function myFunction(id) {servConn.setState("todoist2.0.Control.Close.ID", id)}' + '</script>' + '<table id="task_table">' + HTMLstring + '</table>', ack: true });
+            adapter.setState('HTML.Projects-HTML.' + project.projects_names[j], { val: '<style>' + css + css2 + '</style>' + '<script>' + 'function myFunction(id) {servConn.setState("todoist.0.Control.Close.ID", id)}' + '</script>' + '<table id="task_table">' + HTMLstring + '</table>', ack: true });
         }
 
         if (adapter.config.json_objects == true) {
@@ -2048,7 +2048,7 @@ async function tasktolabels(labels){
                     HTMLstring = "";
                 }
             }
-            adapter.setState('HTML.Labels-HTML.' + labels.labes_names[j], { val: '<style>' + css + css2 + '</style>' + '<script>' + 'function myFunction(id) {servConn.setState("todoist2.0.Control.Close.ID", id)}' + '</script>' + '<table id="task_table">' + HTMLstring + '</table>', ack: true });
+            adapter.setState('HTML.Labels-HTML.' + labels.labes_names[j], { val: '<style>' + css + css2 + '</style>' + '<script>' + 'function myFunction(id) {servConn.setState("todoist.0.Control.Close.ID", id)}' + '</script>' + '<table id="task_table">' + HTMLstring + '</table>', ack: true });
         }
 
         if (adapter.config.json_objects) {
@@ -2120,7 +2120,7 @@ async function tasktofilter(filter_json, filter_name){
                     HTMLstring = "";
                 }                      
                // adapter.setState('HTML.Filter-HTML.'+filter_name, {val: '<table><ul>' + HTMLstring_filter + '</ul></table>', ack: true});
-                adapter.setState('HTML.Filter-HTML.'+filter_name, {val: '<style>' + css + css2 + '</style>' + '<script>' + 'function myFunction(id) {servConn.setState("todoist2.0.Control.Close.ID", id)}' + '</script>' + '<table id="task_table">' + HTMLstring + '</table>', ack: true});
+                adapter.setState('HTML.Filter-HTML.'+filter_name, {val: '<style>' + css + css2 + '</style>' + '<script>' + 'function myFunction(id) {servConn.setState("todoist.0.Control.Close.ID", id)}' + '</script>' + '<table id="task_table">' + HTMLstring + '</table>', ack: true});
             }
             
             await json_verarbeitung.table_json_empty(adapter).then(data => {json_task_parse.push(data);});
@@ -2199,7 +2199,7 @@ async function tasktofilter(filter_json, filter_name){
 
         //Setzte den Status:
         if(adapter.config.html_objects == true){ 
-            adapter.setState('HTML.Filter-HTML.'+filter_name, {val: '<style>' + css + css2 + '</style>' + '<script>' + 'function myFunction(id) {servConn.setState("todoist2.0.Control.Close.ID", id)}' + '</script>' + '<table id="task_table">' + HTMLstring + '</table>', ack: true});
+            adapter.setState('HTML.Filter-HTML.'+filter_name, {val: '<style>' + css + css2 + '</style>' + '<script>' + 'function myFunction(id) {servConn.setState("todoist.0.Control.Close.ID", id)}' + '</script>' + '<table id="task_table">' + HTMLstring + '</table>', ack: true});
         }
         if(adapter.config.json_objects == true){    
             

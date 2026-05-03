@@ -1,16 +1,16 @@
 ![Logo](admin/todoist.png)
-# ioBroker.todoist2
+# ioBroker.todoist
 
-[![NPM version](http://img.shields.io/npm/v/iobroker.template.svg)](https://www.npmjs.com/package/iobroker.todoist2)
-[![Downloads](https://img.shields.io/npm/dm/iobroker.template.svg)](https://www.npmjs.com/package/iobroker.todoist2)
-![Number of Installations (latest)](http://iobroker.live/badges/todoist2-installed.svg)
-![Number of Installations (stable)](http://iobroker.live/badges/todoist2-stable.svg)
-[![Dependency Status](https://img.shields.io/david/rde-master/iobroker.todoist2.svg)](https://david-dm.org/rde-master/iobroker.todoist2)
-[![Known Vulnerabilities](https://snyk.io/test/github/rde-master/ioBroker.todoist2/badge.svg)](https://snyk.io/test/github/rde-master/ioBroker.todoist2)
+[![NPM version](http://img.shields.io/npm/v/iobroker.template.svg)](https://www.npmjs.com/package/iobroker.todoist)
+[![Downloads](https://img.shields.io/npm/dm/iobroker.template.svg)](https://www.npmjs.com/package/iobroker.todoist)
+![Number of Installations (latest)](http://iobroker.live/badges/todoist-installed.svg)
+![Number of Installations (stable)](http://iobroker.live/badges/todoist-stable.svg)
+[![Dependency Status](https://img.shields.io/david/iobroker-community-adapters/iobroker.todoist.svg)](https://david-dm.org/iobroker-community-adapters/iobroker.todoist)
+[![Known Vulnerabilities](https://snyk.io/test/github/iobroker-community-adapters/ioBroker.todoist/badge.svg)](https://snyk.io/test/github/iobroker-community-adapters/ioBroker.todoist)
 
-[![NPM](https://nodei.co/npm/iobroker.todoist2.png?downloads=true)](https://nodei.co/npm/iobroker.todoist2/)
+[![NPM](https://nodei.co/npm/iobroker.todoist.png?downloads=true)](https://nodei.co/npm/iobroker.todoist/)
 
-**Tests:**: [![Travis-CI](http://img.shields.io/travis/rde-master/ioBroker.todoist2/master.svg)](https://travis-ci.org/rde-master/ioBroker.todoist2.svg?branch=master)
+**Tests:**: [![Travis-CI](http://img.shields.io/travis/iobroker-community-adapters/ioBroker.todoist/master.svg)](https://travis-ci.org/iobroker-community-adapters/ioBroker.todoist.svg?branch=master)
 
 ## ioBroker.Todoist
 
@@ -42,7 +42,7 @@ Dieser Adapter verfügt über die Möglichtkeit mit sendTo zu arbeiten:
 Hier ist der nötige Ausbau:
 
 ``` 
- sendTo("todoist2", "send", {
+ sendTo("todoist", "send", {
      funktion: {name/string - see below!},
      task: {name/string},
      task_id: {number},
@@ -162,7 +162,7 @@ Example for SVG Icon in Button
 ```
 Example for any image you like:
 ``` 
-<img src="/todoist2.admin/todoist.png" width="24" height="24">
+<img src="/todoist.admin/todoist.png" width="24" height="24">
 ```
 
 ## Changelog

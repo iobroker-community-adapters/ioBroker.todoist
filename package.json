@@ -4,7 +4,7 @@
     "iobroker-community-adapters <iobroker-community-adapters@gmx.de>"
   ],
   "bugs": {
-    "url": "https://github.com/rde-master/ioBroker.todoist2/issues"
+    "url": "https://github.com/iobroker-community-adapters/ioBroker.todoist/issues"
   },
   "dependencies": {
     "@iobroker/adapter-core": "^2.6.7",
@@ -32,7 +32,7 @@
     "sinon-chai": "^3.5.0",
     "sinon": "^15.0.0"
   },
-  "homepage": "https://github.com/rde-master/ioBroker.todoist2",
+  "homepage": "https://github.com/iobroker-community-adapters/ioBroker.todoist",
   "keywords": [
     "iobroker",
     "notification",
@@ -41,12 +41,12 @@
   ],
   "license": "MIT",
   "main": "main.js",
-  "name": "iobroker.todoist2",
+  "name": "iobroker.todoist",
   "version": "0.9.1",
   "readmeFilename": "README.md",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rde-master/ioBroker.todoist2.git"
+    "url": "git+https://github.com/iobroker-community-adapters/ioBroker.todoist.git"
   },
   "scripts": {
     "test:js": "mocha --opts test/mocha.custom.opts",

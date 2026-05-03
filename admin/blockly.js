@@ -35,7 +35,7 @@ Blockly.Words['todoist_log_info']   			= {'en': 'info',                        	
 Blockly.Words['todoist_log_debug']		    	= {'en': 'debug',                       	'de': 'debug'};
 Blockly.Words['todoist_log_warn']       		= {'en': 'warning',                     	'de': 'warning'};
 Blockly.Words['todoist_log_error']  			= {'en': 'error',                       	'de': 'error'};
-Blockly.Words['todoist_help']           		= {'en': 'https://github.com/rde-master/ioBroker.todoist2/blob/master/README.md', 'de': 'https://github.com/rde-master/ioBroker.todoist2/blob/master/README.md'};
+Blockly.Words['todoist_help']           		= {'en': 'https://github.com/iobroker-community-adapters/ioBroker.todoist/blob/master/README.md', 'de': 'https://github.com/iobroker-community-adapters/ioBroker.todoist/blob/master/README.md'};
 // --- SendTo todoist delete Task --------------------------------------------------
 
 
@@ -84,20 +84,20 @@ Blockly.Blocks['todoist'] = {
         var options = [[Blockly.Words['todoist_anyInstance'][systemLang], '']];
         if (typeof main !== 'undefined' && main.instances) {
             for (var i = 0; i < main.instances.length; i++) {
-                var m = main.instances[i].match(/^system.adapter.todoist2.(\d+)$/);
+                var m = main.instances[i].match(/^system.adapter.todoist.(\d+)$/);
                 if (m) {
                     var k = parseInt(m[1], 10);
-                    options.push(['todoist2.' + k, '.' + k]);
+                    options.push(['todoist.' + k, '.' + k]);
                 }
             }
             if (options.length === 0) {
                 for (var u = 0; u <= 4; u++) {
-                    options.push(['todoist2.' + u, '.' + u]);
+                    options.push(['todoist.' + u, '.' + u]);
                 }
             }
         } else {
             for (var n = 0; n <= 4; n++) {
-                options.push(['todoist2.' + n, '.' + n]);
+                options.push(['todoist.' + n, '.' + n]);
             }
         }
 
@@ -228,7 +228,7 @@ Blockly.JavaScript['todoist'] = function(block) {
     }
    
 
-    return 'sendTo("todoist2' + dropdown_instance + '", "send", ' + text + ');\n' + logText;
+    return 'sendTo("todoist' + dropdown_instance + '", "send", ' + text + ');\n' + logText;
 	
 	/*
     return 'sendTo("todoist' + dropdown_instance + '", "send", {\n    task: ' + value_task, ' \n    ' + 
