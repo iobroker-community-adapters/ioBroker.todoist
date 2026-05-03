@@ -1,6 +1,6 @@
 {
   "common": {
-    "name": "todoist2",
+    "name": "todoist",
     "version": "0.9.1",
     "news": {
       "0.9.1": {
@@ -221,18 +221,18 @@
         "zh-cn": "错误修正Prio"
       }
     },
-    "title": "todoist2",
+    "title": "todoist",
     "titleLang": {
-      "en": "todoist2",
-      "de": "todoist2",
-      "ru": "todoist2",
-      "pt": "todoist2",
-      "nl": "todoist2",
-      "fr": "todoist2",
-      "it": "todoist2",
-      "es": "todoist2",
-      "pl": "todoist2",
-      "zh-cn": "todoist2"
+      "en": "todoist",
+      "de": "todoist",
+      "ru": "todoist",
+      "pt": "todoist",
+      "nl": "todoist",
+      "fr": "todoist",
+      "it": "todoist",
+      "es": "todoist",
+      "pl": "todoist",
+      "zh-cn": "todoist"
     },
     "desc": {
       "en": "This adapter communikates with todoist",
@@ -261,7 +261,7 @@
     "dataSource": "poll",
     "mode": "daemon",
     "messagebox": true,
-    "readme": "https://raw.githubusercontent.com/rde-master/ioBroker.todoist2/master/README.md",
+    "readme": "https://raw.githubusercontent.com/iobroker-community-adapters/ioBroker.todoist/master/README.md",
     "loglevel": "info",
     "icon": "todoist.png",
     "materialize": true,
@@ -271,7 +271,7 @@
         "js-controller": ">=6.0.11"
       }
     ],
-    "extIcon": "https://raw.githubusercontent.com/rde-master/ioBroker.todoist2/master/admin/todoist.png",
+    "extIcon": "https://raw.githubusercontent.com/iobroker-community-adapters/ioBroker.todoist/master/admin/todoist.png",
     "type": "messaging",
     "stopBeforeUpdate": false,
     "blockly": true,
